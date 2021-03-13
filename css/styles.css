@@ -1,0 +1,47 @@
+/*
+screen - #c5c1c0
+steel - #0a1612 
+denim - #1a2930
+marigold - #f7ce3e
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c5c1c0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, i {
+    color: #f7ce3e;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.navbar-nav {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+i {
+    color: #eeb14f;
+}
+
+.jumbotron {
+    background-color: #1a2930;
+}
+
+.mainHeader {
+    font-size: 5.4rem;
+    text-transform: uppercase;
+}
+
+h4.sub-heading {
+    font-size: 1rem;
+    color: #fff;
+}
