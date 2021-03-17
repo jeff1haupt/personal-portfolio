@@ -10,15 +10,23 @@ marigold - #f7ce3e
     padding: 0;
 }
 
+html {
+    min-height: 100%;
+}
+
 body {
-    background-color: #c5c1c0;
+    background: #000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #000, #14213d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #000, #14213d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 14px;
 }
 
 h1, h2, h3, h4, i {
-    color: #f7ce3e;
-    font-family: Montserrat, sans-serif;
+    color: #fca311;
+    font-family: "Ubuntu Mono", sans-serif;
     font-weight: bold;
     font-size: 35px;
 }
@@ -29,11 +37,12 @@ h1, h2, h3, h4, i {
 }
 
 i {
-    color: #eeb14f;
+    color: #fca311;
 }
 
-.jumbotron {
-    background-color: #1a2930;
+.mainProfileImg {
+    border-radius: 180%;
+    border: 8px solid #fca311;
 }
 
 .mainHeader {
