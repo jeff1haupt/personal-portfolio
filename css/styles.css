@@ -47,7 +47,12 @@ i {
 
 .mainHeader {
     font-size: 5.4rem;
-    text-transform: uppercase;
+    margin-bottom: -10px;
+}
+
+.subMainHeading {
+    font-size: 5.4rem;
+    color: #fff;
 }
 
 h4.sub-heading {
