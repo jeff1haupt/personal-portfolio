@@ -105,4 +105,10 @@ h2.sectionHeading {
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
   }
+
+  .list-group-item {
+      background-color: inherit;
+      margin: 0;
+      padding: 0;
+  }
   
