@@ -111,4 +111,8 @@ h2.sectionHeading {
       margin: 0;
       padding: 0;
   }
+
+  .card {
+      background-color: inherit;
+  }
   
