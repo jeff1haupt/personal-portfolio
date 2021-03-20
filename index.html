@@ -16,22 +16,25 @@
 <body>
     
     <div class="container mx-auto"><!-- begin main bootstrap container -->
-        <nav class="navbar navbar-expand-sm"><!-- begin main nav -->
+        <nav class="navbar navbar-expand-sm" id="mainNav"><!-- begin main nav -->
             <a href="#" class="navbar-brand">
                 <img class="logo" src="img/JH-logo5.png" alt="Jeff Haupt Full-stack Developer Logo" height="50">
             </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <ul class="navbar-nav">
                 <li class="nav-item px-3">
-                    <a href="#" class="nav-link text-white hvr-sweep-to-top">About</a>
+                    <a href="#about" class="nav-link text-white hvr-sweep-to-top">About</a>
                 </li>
                 <li class="nav-item px-3">
-                    <a href="#" class="nav-link text-white hvr-sweep-to-top">Projects</a>
+                    <a href="#projects" class="nav-link text-white hvr-sweep-to-top">Projects</a>
                 </li>
                 <li class="nav-item px-3">
-                    <a href="#" class="nav-link text-white hvr-sweep-to-top">Posts</a>
+                    <a href="#posts" class="nav-link text-white hvr-sweep-to-top">Posts</a>
                 </li>
                 <li class="nav-item px-3">
-                    <a href="#" class="nav-link text-white hvr-sweep-to-top">Hire me</a>
+                    <a href="#hireme" class="nav-link text-white hvr-sweep-to-top">Hire me</a>
                 </li>
             </ul>
             <div class="navbar-text ml-auto">
@@ -45,7 +48,7 @@
             <div class="col-sm-4 mt-4 text-center">
                 <img src="img/profile.jpeg" class="mainProfileImg" width="300" alt="Jeff Haupt - Full-stack developer">
             </div>
-            <div class="col-sm-8 mt-4 align-items-center">
+            <div class="col-sm-8 mt-4">
                 <h1 class="mainHeader"> Full-stack </h1>
                 <h1 class="subMainHeading"> Developer </h1>
                 <h4 class="sub-heading">Backend Curriculum Specialist at Promineo Tech - Focused on assisting students with Java / MySQL / Spring Boot course materials, while also working with a team to improve and update materials.</h4>
@@ -53,14 +56,14 @@
         </div><!-- end of row 1 -->
         <div class="row fixed-bottom">
             <div class="col text-right mr-3">
-                <i class="fas fa-chevron-up"></i><br>
-                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-chevron-up hideArrow" id="navUp"></i><br>
+                <i class="fas fa-chevron-down hideArrow" id="navDown"></i>
             </div>
         </div>
         <hr />
         <div class="row mt-5"><!-- begin row 2 -->
             <div class="col mx-3 text-left my-5">
-                <h2 class="sectionHeading py-3"> About </h2>
+                <h2 class="sectionHeading py-3" id="about"> About </h2>
             </div>
         </div>
         <div class="row">
@@ -145,10 +148,14 @@
             </div>
         </div>
     </div><!-- end main bootstrap container -->
+    <footer>
+
+    </footer>
 
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
